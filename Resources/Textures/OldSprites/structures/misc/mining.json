@@ -1,0 +1,2031 @@
+{
+  "meta": {
+    "source": "mining.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "mining.png"
+  },
+  "states": {
+    "satchel": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "orebox": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bin": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bin_partial": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bin_full": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "deploycrate": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rail": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 192,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 224,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 256,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 288,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southeast": [
+          {
+            "x": 320,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southwest": [
+          {
+            "x": 352,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northeast": [
+          {
+            "x": 384,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northwest": [
+          {
+            "x": 416,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rail_intersection": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 448,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 32,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 64,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southeast": [
+          {
+            "x": 96,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southwest": [
+          {
+            "x": 128,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northeast": [
+          {
+            "x": 160,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northwest": [
+          {
+            "x": 192,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rail_intersection_NSE": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 224,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 256,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 288,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 320,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southeast": [
+          {
+            "x": 352,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southwest": [
+          {
+            "x": 384,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northeast": [
+          {
+            "x": 416,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northwest": [
+          {
+            "x": 448,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rail_intersection_SEW": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 32,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 64,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 96,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southeast": [
+          {
+            "x": 128,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southwest": [
+          {
+            "x": 160,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northeast": [
+          {
+            "x": 192,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northwest": [
+          {
+            "x": 224,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rail_intersection_NSW": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 256,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 288,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 320,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 352,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southeast": [
+          {
+            "x": 384,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southwest": [
+          {
+            "x": 416,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northeast": [
+          {
+            "x": 448,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northwest": [
+          {
+            "x": 0,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rail_intersection_NEW": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 32,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 64,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 96,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 128,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southeast": [
+          {
+            "x": 160,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "southwest": [
+          {
+            "x": 192,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northeast": [
+          {
+            "x": 224,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "northwest": [
+          {
+            "x": 256,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "gigadrill_mov": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 288,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 320,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 352,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 384,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ],
+        "north": [
+          {
+            "x": 416,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 448,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 0,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ],
+        "east": [
+          {
+            "x": 64,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 96,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 128,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 160,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ],
+        "west": [
+          {
+            "x": 192,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 224,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 256,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 288,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "gigadrill": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 320,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 352,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 384,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 416,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Adamantine ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Bananium ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Diamond ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Glass ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Gold ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Iron ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Plasma ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Silver ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "slag": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Uranium ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Green lump": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Phazon": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "sheetsnatcher": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Gibtonite ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Gibtonite active": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 64,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 96,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "Gibtonite ore 2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 160,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 192,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 224,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 256,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 288,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 320,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "Gibtonite ore 3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 2000.0
+          },
+          {
+            "x": 384,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 416,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 448,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "Gibtonite_igniter": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "xeno_warning": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "satchel_bspace": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 70.0
+          },
+          {
+            "x": 96,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 70.0
+          },
+          {
+            "x": 128,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 70.0
+          },
+          {
+            "x": 160,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 70.0
+          },
+          {
+            "x": 192,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 70.0
+          }
+        ]
+      }
+    },
+    "pickaxe": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "spickaxe": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "dpickaxe": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "gpickaxe": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "upickaxe": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ppickaxe": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "jackhammer": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "handdrill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "diamonddrill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Jaunter": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 3000.0
+          },
+          {
+            "x": 64,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 96,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 3000.0
+          },
+          {
+            "x": 128,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "resonator": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "resonator_u": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "mining_voucher": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "goliath_hide": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "goliath_hide_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "goliath_hide_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "shovel": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "shovel_bone": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "spade": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bar-gibtonite": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bar-igniter": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bar-wire": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "capsule": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "volcanic_sand": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "sinew": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bone": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bone_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bone_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "sinewcuff": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "skull": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "dragon_hide": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "dragon_hide_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "dragon_hide_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "Titanium ore": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "minipick": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "goliath_saddle": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "construction_drone_off": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 32,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 64,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          }
+        ],
+        "north": [
+          {
+            "x": 96,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 128,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          }
+        ],
+        "east": [
+          {
+            "x": 160,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 192,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          }
+        ],
+        "west": [
+          {
+            "x": 224,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 256,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          }
+        ]
+      }
+    },
+    "construction_drone": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 64,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 96,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 128,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 160,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          }
+        ],
+        "north": [
+          {
+            "x": 192,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 224,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 256,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 288,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          }
+        ],
+        "east": [
+          {
+            "x": 320,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 352,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 384,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 416,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          }
+        ],
+        "west": [
+          {
+            "x": 448,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 0,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 32,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 64,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 250.0
+          }
+        ]
+      }
+    },
+    "silo": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "silo_active": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 160,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 192,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 224,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 256,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 288,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "crusher": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "crusher_lit": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "crusher_uncharged": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 416,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "polar_bear_hide": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "polar_bear_hide_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "polar_bear_hide_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ipickaxe": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

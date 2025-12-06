@@ -1,0 +1,810 @@
+{
+  "meta": {
+    "source": "ausflora.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "ausflora.png"
+  },
+  "states": {
+    "firstbush_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "firstbush_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "firstbush_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "firstbush_4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "reedbush_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "reedbush_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "reedbush_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "reedbush_4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "leafybush_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "leafybush_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "leafybush_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "palebush_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "palebush_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "palebush_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "palebush_4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "stalkybush_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "stalkybush_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "stalkybush_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grassybush_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grassybush_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grassybush_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grassybush_4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fernybush_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fernybush_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fernybush_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "sunnybush_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "sunnybush_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "sunnybush_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "genericbush_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "genericbush_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "genericbush_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "genericbush_4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pointybush_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pointybush_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pointybush_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pointybush_4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "lavendergrass_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "lavendergrass_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "lavendergrass_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "lavendergrass_4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ywflowers_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ywflowers_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ywflowers_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ywflowers_4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "brflowers_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "brflowers_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "brflowers_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ppflowers_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ppflowers_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ppflowers_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "sparsegrass_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "sparsegrass_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "sparsegrass_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fullgrass_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fullgrass_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fullgrass_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "goldenbush": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "source": "language.dmi",
+    "size": {
+      "w": 16,
+      "h": 16
+    },
+    "image": "language.png"
+  },
+  "states": {
+    "eal": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "xeno": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 16,
+            "y": 0,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "animal": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ratvar": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 48,
+            "y": 0,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "slime": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "swarmer": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 16,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "drone": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 16,
+            "y": 16,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "codespeak": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 16,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "popcorn": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 48,
+            "y": 16,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "galcom": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 16,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "galuncom": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "lizard": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 16,
+            "y": 32,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "narsie": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 32,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "beach": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 48,
+            "y": 32,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "aphasia": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 32,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "moth": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 48,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pirate": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 16,
+            "y": 48,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "volt": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 48,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "plant": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 48,
+            "y": 48,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "golem": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 48,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "buzz": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "shadow": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 16,
+            "y": 64,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "calcic": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 64,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "neko": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 48,
+            "y": 64,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "xoxol": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 64,
+            "w": 16,
+            "h": 16,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

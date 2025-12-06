@@ -1,0 +1,677 @@
+{
+  "meta": {
+    "source": "pda.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "pda.png"
+  },
+  "states": {
+    "": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda-clear": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda-clown": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda-library": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 128,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 160,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 192,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "pda_screen_borders": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda_base": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda_buttons": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda_stripe_thick": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda_stripe_split": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda_stripe_clown": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda_stripe_head": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda_stripe_mime": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda_cross": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pda-r": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 800.0
+          },
+          {
+            "x": 32,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 800.0
+          }
+        ]
+      }
+    },
+    "pda-r-library": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 800.0
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 800.0
+          }
+        ]
+      }
+    },
+    "id_overlay": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pai_overlay": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pai_off_overlay": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "light_overlay": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "insert_overlay": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-e": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-m": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-chem": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-c": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-h": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-s": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-clown": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-a": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-j": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-q": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-tox": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-tear": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-b": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-lib": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-eye": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-mi": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-hos": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-ce": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-cmo": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cart-rd": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pdapainter": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pdapainter-off": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pdapainter-broken": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pdapainter-closed": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

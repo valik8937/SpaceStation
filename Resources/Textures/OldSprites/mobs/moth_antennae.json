@@ -1,0 +1,1652 @@
+{
+  "meta": {
+    "source": "moth_antennae.dmi",
+    "size": {
+      "w": 45,
+      "h": 34
+    },
+    "image": "moth_antennae.png"
+  },
+  "states": {
+    "m_moth_antennae_monarch_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 45,
+            "y": 0,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 90,
+            "y": 0,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 135,
+            "y": 0,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_monarch_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 180,
+            "y": 0,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 225,
+            "y": 0,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 270,
+            "y": 0,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 315,
+            "y": 0,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_luna_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 360,
+            "y": 0,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 405,
+            "y": 0,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 450,
+            "y": 0,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 0,
+            "y": 34,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_luna_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 45,
+            "y": 34,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 90,
+            "y": 34,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 135,
+            "y": 34,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 180,
+            "y": 34,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_atlas_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 225,
+            "y": 34,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 270,
+            "y": 34,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 315,
+            "y": 34,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 360,
+            "y": 34,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_atlas_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 405,
+            "y": 34,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 450,
+            "y": 34,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 0,
+            "y": 68,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 45,
+            "y": 68,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_plain_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 90,
+            "y": 68,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 135,
+            "y": 68,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 180,
+            "y": 68,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 225,
+            "y": 68,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_plain_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 270,
+            "y": 68,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 315,
+            "y": 68,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 360,
+            "y": 68,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 405,
+            "y": 68,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_reddish_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 450,
+            "y": 68,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 0,
+            "y": 102,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 45,
+            "y": 102,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 90,
+            "y": 102,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_reddish_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 135,
+            "y": 102,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 180,
+            "y": 102,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 225,
+            "y": 102,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 270,
+            "y": 102,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_royal_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 315,
+            "y": 102,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 360,
+            "y": 102,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 405,
+            "y": 102,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 450,
+            "y": 102,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_royal_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 136,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 45,
+            "y": 136,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 90,
+            "y": 136,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 135,
+            "y": 136,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_gothic_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 180,
+            "y": 136,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 225,
+            "y": 136,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 270,
+            "y": 136,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 315,
+            "y": 136,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_gothic_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 360,
+            "y": 136,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 405,
+            "y": 136,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 450,
+            "y": 136,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 0,
+            "y": 170,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_lovers_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 45,
+            "y": 170,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 90,
+            "y": 170,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 135,
+            "y": 170,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 180,
+            "y": 170,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_lovers_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 225,
+            "y": 170,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 270,
+            "y": 170,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 315,
+            "y": 170,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 360,
+            "y": 170,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_whitefly_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 405,
+            "y": 170,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 450,
+            "y": 170,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 0,
+            "y": 204,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 45,
+            "y": 204,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_whitefly_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 90,
+            "y": 204,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 135,
+            "y": 204,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 180,
+            "y": 204,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 225,
+            "y": 204,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_burnt_off_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 270,
+            "y": 204,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 315,
+            "y": 204,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 360,
+            "y": 204,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 405,
+            "y": 204,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_burnt_off_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 450,
+            "y": 204,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 0,
+            "y": 238,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 45,
+            "y": 238,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 90,
+            "y": 238,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_firewatch_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 135,
+            "y": 238,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 180,
+            "y": 238,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 225,
+            "y": 238,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 270,
+            "y": 238,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_firewatch_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 315,
+            "y": 238,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 360,
+            "y": 238,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 405,
+            "y": 238,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 450,
+            "y": 238,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_deathhead_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 272,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 45,
+            "y": 272,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 90,
+            "y": 272,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 135,
+            "y": 272,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_deathhead_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 180,
+            "y": 272,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 225,
+            "y": 272,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 270,
+            "y": 272,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 315,
+            "y": 272,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_poison_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 360,
+            "y": 272,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 405,
+            "y": 272,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 450,
+            "y": 272,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 0,
+            "y": 306,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_poison_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 45,
+            "y": 306,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 90,
+            "y": 306,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 135,
+            "y": 306,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 180,
+            "y": 306,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_ragged_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 225,
+            "y": 306,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 270,
+            "y": 306,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 315,
+            "y": 306,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 360,
+            "y": 306,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_ragged_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 405,
+            "y": 306,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 450,
+            "y": 306,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 0,
+            "y": 340,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 45,
+            "y": 340,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_moonfly_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 90,
+            "y": 340,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 135,
+            "y": 340,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 180,
+            "y": 340,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 225,
+            "y": 340,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_moonfly_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 270,
+            "y": 340,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 315,
+            "y": 340,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 360,
+            "y": 340,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 405,
+            "y": 340,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_snow_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 450,
+            "y": 340,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 0,
+            "y": 374,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 45,
+            "y": 374,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 90,
+            "y": 374,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_snow_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 135,
+            "y": 374,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 180,
+            "y": 374,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 225,
+            "y": 374,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 270,
+            "y": 374,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_oakworm_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 315,
+            "y": 374,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 360,
+            "y": 374,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 405,
+            "y": 374,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 450,
+            "y": 374,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_oakworm_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 408,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 45,
+            "y": 408,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 90,
+            "y": 408,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 135,
+            "y": 408,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_witchwing_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 180,
+            "y": 408,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 225,
+            "y": 408,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 270,
+            "y": 408,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 315,
+            "y": 408,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_witchwing_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 360,
+            "y": 408,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 405,
+            "y": 408,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 450,
+            "y": 408,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 0,
+            "y": 442,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_jungle_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 45,
+            "y": 442,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 90,
+            "y": 442,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 135,
+            "y": 442,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 180,
+            "y": 442,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_jungle_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 225,
+            "y": 442,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 270,
+            "y": 442,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 315,
+            "y": 442,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 360,
+            "y": 442,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_regal_BEHIND": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 405,
+            "y": 442,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 450,
+            "y": 442,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 0,
+            "y": 476,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 45,
+            "y": 476,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m_moth_antennae_regal_FRONT": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 90,
+            "y": 476,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 135,
+            "y": 476,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 180,
+            "y": 476,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 225,
+            "y": 476,
+            "w": 45,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

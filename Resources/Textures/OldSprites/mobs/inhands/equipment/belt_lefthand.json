@@ -1,0 +1,627 @@
+{
+  "meta": {
+    "source": "belt_lefthand.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "belt_lefthand.png"
+  },
+  "states": {
+    "utility": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "utility_ce": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 160,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 192,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 224,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "medical": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 32,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 64,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 96,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "security": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 128,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 160,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 192,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 224,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "championbelt": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 32,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 64,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 96,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "explorer1": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 128,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 160,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 192,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 224,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "explorer2": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 32,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 64,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 96,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ebelt": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 128,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 160,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 192,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 224,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "soulstonebelt": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 32,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 64,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 96,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "militarywebbing": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 128,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 160,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 192,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 224,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "securitywebbing": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 32,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 64,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 96,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "militarybelt": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 128,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 160,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 192,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 224,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "janibelt": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 32,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 64,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 96,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bandolier": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 128,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 160,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 192,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 224,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "holster": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 32,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 64,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 96,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

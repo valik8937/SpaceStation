@@ -1,0 +1,1496 @@
+{
+  "meta": {
+    "source": "default.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "default.png"
+  },
+  "states": {
+    "ai": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "angry_stickman": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "armored_changeling": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "assistant": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "atmos_tech": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bartender": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "botanist": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "captain": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "captain_hardsuit": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cargo_tech": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "chaplain_crusader": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "chemist": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ce": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ce_hardsuit": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cmo": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cmo_hardsuit": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "chrono_legionnaire": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "citrus": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "clown": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_clown": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "clown_hardsuit": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "abductor_combat": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cook": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "wizard_hardsuit": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "curator": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ian_cyborg": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "deathsquad": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "detective": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "nukie_elite": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_engi": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ert_command": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ert_engi": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ert_med": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ert_sec": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "explorer": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_generic": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "geneticist": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "geneticist_med": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ian_ghost": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hop": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hos": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hos_hardsuit": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ian": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "inquisitor": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "intern": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "janitor": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_janitor": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "lawyer": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "legion": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_medical": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "md": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "mime": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_miner": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "monkey": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "nukie_red": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "paramedic": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_peace": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "engi_plasma": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "qm": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "qm_head": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pai_rabbit": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pai_drone": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rd": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rd_hardsuit": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "roboticist": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "runtime": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "scientist": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_sec": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "sec": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "clock_cultist": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_serv_can": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_serv_pink": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_serv_skirt": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_serv_suit": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "borg_serv_tux": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "miner": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "engi": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "swarmer": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "viro": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "warden": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "xeno_hunter": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "adrenals": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bag_greed": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "black_gaia": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "blue_warp": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bsa_barrage": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "botanist_plant": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "eco_crash": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fryer": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "glitch_system": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "good_planning": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "immoral_surgeon": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "inducer": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "just_losses": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "scientist_moth": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "plasmafire": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "psych": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "re_education": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "revenant": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "sleeping_carp": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tough_choices": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "nuclear_option": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "disco_inferno": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weekend_at_bernies": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bepis": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cardback": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

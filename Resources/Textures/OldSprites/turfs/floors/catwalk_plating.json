@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "source": "catwalk_plating.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "catwalk_plating.png"
+  },
+  "states": {
+    "catwalk_below": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "catwalk_above": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "source": "jungletrees.dmi",
+    "size": {
+      "w": 128,
+      "h": 160
+    },
+    "image": "jungletrees.png"
+  },
+  "states": {
+    "tree1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 160,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 128,
+            "h": 160,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 0,
+            "w": 128,
+            "h": 160,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 160,
+            "w": 128,
+            "h": 160,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree5": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 160,
+            "w": 128,
+            "h": 160,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree6": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 160,
+            "w": 128,
+            "h": 160,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 320,
+            "w": 128,
+            "h": 160,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

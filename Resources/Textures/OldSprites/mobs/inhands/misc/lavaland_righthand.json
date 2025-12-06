@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "source": "lavaland_righthand.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "lavaland_righthand.png"
+  },
+  "states": {
+    "oar": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 32,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

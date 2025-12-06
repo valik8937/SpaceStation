@@ -1,0 +1,3855 @@
+{
+  "meta": {
+    "source": "energy.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "energy.png"
+  },
+  "states": {
+    "flight": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "flight_on": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "taser": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "taser_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "taser_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 160,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "retro": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "retro_charge1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "retro_charge2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "retro_charge3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "retro_charge4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "retro_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 384,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "energy": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energy_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energy_charge_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energy_disable": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energy_charge_disable": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energy_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energy_charge_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energy_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 320,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "xray": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "xray_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "xray_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 192,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "energytac": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energytac_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energytac_charge_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energytac_disable": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energytac_charge_disable": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energytac_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energytac_charge_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "energytac_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 480,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "caplaser": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 512,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "caplaser_charge1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "caplaser_charge2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "caplaser_charge3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "caplaser_charge4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "caplaser_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "freezegun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "freezegun_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "freezegun_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 224,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "decloner": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "decloner_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "decloner_spin": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 352,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 384,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 416,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "decloner_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 480,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "lasercannon": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 512,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "lasercannon_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "lasercannon_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 64,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 0,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "ionrifle": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ionrifle_charge1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ionrifle_charge2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ionrifle_charge3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ionrifle_charge4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ionrifle_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 224,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "pulse": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_DESTORY": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_charge_DESTROY": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_charge_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_charge_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 512,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "laser": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "laser_charge1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 96,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "laser_charge2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "laser_charge3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "laser_charge4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "laser_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 128,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "bluetag": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bluetag_charge1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bluetag_charge2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bluetag_charge3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bluetag_charge4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bluetag_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 352,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "redtag": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "redtag_charge1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "redtag_charge2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "redtag_charge3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "redtag_charge4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 512,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "redtag_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 576,
+            "y": 128,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "flora": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "flora_yield": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "flora_charge_yield": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "flora_mutation": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "flora_charge_mutation": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "flora_revolution": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "flora_charge_revolution": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "flora_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 256,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "advtaser": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "advtaser_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "advtaser_charge_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "advtaser_disable": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "advtaser_charge_disable": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "advtaser_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 480,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "pulse_carbine": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 512,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_carbine_DESTROY": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_carbine_charge_DESTROY": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 160,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_carbine_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_carbine_charge_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_carbine_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_carbine_charge_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_carbine_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 160,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "m1911": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m1911_charge_DESTROY": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m1911_charge_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m1911_charge_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "m1911_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 352,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "pulse_pistol": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_pistol_DESTROY": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_pistol_charge_DESTROY": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_pistol_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_pistol_charge_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 512,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_pistol_charge_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_pistol_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 192,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pulse_pistol_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 32,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "ioncarbine": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ioncarbine_charge1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ioncarbine_charge2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ioncarbine_charge3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ioncarbine_charge4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ioncarbine_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 256,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "stunrevolver": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "stunrevolver_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "stunrevolver_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 384,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "hoslaser": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hoslaser_ion": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hoslaser_charge_ion": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hoslaser_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 512,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hoslaser_charge_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hoslaser_disable": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 224,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hoslaser_charge_disable": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hoslaser_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 64,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "dragnet": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "dragnet_net": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "dragnet_charge_net": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "dragnet_snare": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "dragnet_charge_snare": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "dragnet_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 288,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "turretlaser": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "turretlaser_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "turretlaser_charge_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "turretlaser_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "turretlaser_charge_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "turretlaser_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 512,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "nucgun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "nucgun_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 256,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "nucgun_charge_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "nucgun_disable": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "nucgun_charge_disable": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "nucgun_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "nucgun_charge_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "nucgun_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 192,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "nucgun_fail_0": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 256,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 288,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 320,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 352,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 200.0
+          }
+        ]
+      }
+    },
+    "nucgun_fail_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 416,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 448,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 480,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 512,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "nucgun_fail_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 576,
+            "y": 288,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 0,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 64,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "nucgun_fail_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 128,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 160,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 192,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 224,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 50.0
+          }
+        ]
+      }
+    },
+    "crossbow": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "crossbow_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "crossbow_halloween": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "crossbow_halloween_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "crossbowlarge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "crossbowlarge_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "kineticgun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "kineticgun_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 512,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "kineticgun_u": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "kineticgun_h": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 320,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "wormhole_projector": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "wormhole_projector1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 64,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 96,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 128,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 160,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 192,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "wormhole_projector2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 256,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 288,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 320,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 352,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 384,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "plasmacutter": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "adv_plasmacutter": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "alienpistol": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "alienpistol_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 512,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "alienpistol_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 576,
+            "y": 352,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "instagib": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "instagib_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "instagib_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 96,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "instagibblue": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "instagibblue_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "instagibblue_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 224,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "instagibred": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "instagibred_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "instagibred_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 352,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "instagibgreen": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "instagibgreen_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "instagibgreen_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 480,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "instagibyellow": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 512,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "instagibyellow_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "instagibyellow_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 384,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 0,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "export_cannon": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "export_cannon_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "mini": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "mini_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 160,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "mini-light": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "mini-light_on": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "mini_charge_disable": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "mini_charge_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "mini_charge_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tesla": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tesla_charge1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 384,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tesla_charge2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tesla_charge3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tesla_charge4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tesla_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 512,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 544,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "gravity_gun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 416,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 0,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 64,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "meteor_gun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "esniper_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 384,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "esniper": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "esniper_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 480,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 512,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 544,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 576,
+            "y": 448,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 0,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 64,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 96,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 128,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 160,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 192,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 224,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 256,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 288,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 320,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 352,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 384,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 416,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 448,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 480,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 512,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 544,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 576,
+            "y": 480,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 0,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "protolaser": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "protolaser_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "protolaser_charge_stun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "protolaser_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "protolaser_charge_kill": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "protolaser_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 256,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "disabler": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 288,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "disabler_charge": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 320,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "disabler_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 352,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 384,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "dueling_pistol": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 416,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "duel_red": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 448,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "duel_green": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "duel_blue": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 512,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "shrink_ray": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 544,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hellgun": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 576,
+            "y": 512,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hellgun_empty": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 544,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 32,
+            "y": 544,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 500.0
+          }
+        ]
+      }
+    },
+    "hellgun_charge1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 544,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hellgun_charge2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 544,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hellgun_charge3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 544,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "hellgun_charge4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 544,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

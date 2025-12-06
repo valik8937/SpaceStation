@@ -1,0 +1,642 @@
+{
+  "meta": {
+    "source": "red_wall.dmi",
+    "size": {
+      "w": 40,
+      "h": 40
+    },
+    "image": "red_wall.png"
+  },
+  "states": {
+    "red_wall-255": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-239": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-223": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-207": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-203": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-191": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-175": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-159": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-157": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-139": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-137": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-127": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-111": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-110": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-95": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-79": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-78": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-75": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-74": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-63": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-55": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-47": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-46": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-39": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-38": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-31": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-29": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-23": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-21": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-15": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-14": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-13": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-12": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-11": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-10": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-9": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-8": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-7": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-6": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-5": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 240,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 240,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red_wall-0": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 240,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

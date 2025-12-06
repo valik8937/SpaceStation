@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "supplypod_pickturf_down.dmi",
+    "size": {
+      "w": 64,
+      "h": 64
+    },
+    "image": "supplypod_pickturf_down.png"
+  },
+  "states": {
+    "": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

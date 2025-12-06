@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "source": "debug.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "debug.png"
+  },
+  "states": {
+    "genturf": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fucked_baseturfs": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 1000.0
+          },
+          {
+            "x": 0,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 1000.0
+          },
+          {
+            "x": 32,
+            "y": 32,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 1000.0
+          }
+        ]
+      }
+    }
+  }
+}

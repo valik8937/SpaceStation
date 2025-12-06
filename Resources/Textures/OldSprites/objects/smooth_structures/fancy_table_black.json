@@ -1,0 +1,670 @@
+{
+  "meta": {
+    "source": "fancy_table_black.dmi",
+    "size": {
+      "w": 32,
+      "h": 34
+    },
+    "image": "fancy_table_black.png"
+  },
+  "states": {
+    "fancy_table_black-0": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-5": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-6": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-7": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-8": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-9": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-10": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-11": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-12": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-13": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-14": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-15": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-21": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-23": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-29": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-31": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-38": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-39": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-46": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-47": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-55": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-63": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-74": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-75": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-78": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-79": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-95": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-110": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-111": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-127": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-137": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-139": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-141": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-143": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-157": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-159": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-175": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-191": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-203": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-207": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-223": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-239": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_black-255": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

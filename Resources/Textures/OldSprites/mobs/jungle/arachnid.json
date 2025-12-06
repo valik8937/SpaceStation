@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "source": "arachnid.dmi",
+    "size": {
+      "w": 64,
+      "h": 64
+    },
+    "image": "arachnid.png"
+  },
+  "states": {
+    "palette": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "arachnid": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 64,
+            "y": 64,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "arachnid_sleeping": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 64,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "arachnid_stunned": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 128,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "arachnid_dead": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 128,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "dead_green": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 128,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

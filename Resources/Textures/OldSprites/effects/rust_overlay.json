@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "rust_overlay.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "rust_overlay.png"
+  },
+  "states": {
+    "rust_default": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "237x321.dmi",
+    "size": {
+      "w": 237,
+      "h": 321
+    },
+    "image": "237x321.png"
+  },
+  "states": {
+    "nezbere": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 237,
+            "h": 321,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

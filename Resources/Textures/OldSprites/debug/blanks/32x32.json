@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "32x32.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "32x32.png"
+  },
+  "states": {
+    "nothing": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

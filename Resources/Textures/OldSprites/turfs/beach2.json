@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "source": "beach2.dmi",
+    "size": {
+      "w": 32,
+      "h": 64
+    },
+    "image": "beach2.png"
+  },
+  "states": {
+    "palm1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "palm2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

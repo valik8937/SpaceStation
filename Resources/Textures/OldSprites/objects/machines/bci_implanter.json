@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "source": "bci_implanter.dmi",
+    "size": {
+      "w": 32,
+      "h": 64
+    },
+    "image": "bci_implanter.png"
+  },
+  "states": {
+    "green": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "red": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bolted": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bci_implanter": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bci_implanter_raising": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 160,
+            "y": 0,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 0,
+            "y": 64,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 32,
+            "y": 64,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 500.0
+          }
+        ]
+      }
+    },
+    "bci_implanter_falling": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 64,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 96,
+            "y": 64,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 128,
+            "y": 64,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 160,
+            "y": 64,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 500.0
+          }
+        ]
+      }
+    },
+    "bci_implanter_active": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 128,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 128,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 64,
+            "y": 128,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 96,
+            "y": 128,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 128,
+            "y": 128,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 160,
+            "y": 128,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 0,
+            "y": 192,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 192,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "bci_implanter_occupied": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 192,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bci_implanter_open": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 192,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "maint": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 192,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

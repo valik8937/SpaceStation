@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "source": "mining_scanner.dmi",
+    "size": {
+      "w": 480,
+      "h": 480
+    },
+    "image": "mining_scanner.png"
+  },
+  "states": {
+    "mining_scan": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 480,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 960,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 0,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 480,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 960,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50.0
+          }
+        ]
+      }
+    }
+  }
+}

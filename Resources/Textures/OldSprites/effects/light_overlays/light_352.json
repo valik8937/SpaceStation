@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "light_352.dmi",
+    "size": {
+      "w": 352,
+      "h": 352
+    },
+    "image": "light_352.png"
+  },
+  "states": {
+    "light": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 352,
+            "h": 352,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

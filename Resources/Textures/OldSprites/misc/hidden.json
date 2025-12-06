@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "source": "hidden.dmi",
+    "size": {
+      "w": 1,
+      "h": 1
+    },
+    "image": "hidden.png"
+  },
+  "states": {
+    "hidden": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 1,
+            "h": 1,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 1,
+            "y": 0,
+            "w": 1,
+            "h": 1,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

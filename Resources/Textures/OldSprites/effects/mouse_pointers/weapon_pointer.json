@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "weapon_pointer.dmi",
+    "size": {
+      "w": 64,
+      "h": 64
+    },
+    "image": "weapon_pointer.png"
+  },
+  "states": {
+    "all": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

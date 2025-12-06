@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "_flora.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "_flora.png"
+  },
+  "states": {
+    "random_plant": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "source": "deadtrees.dmi",
+    "size": {
+      "w": 64,
+      "h": 64
+    },
+    "image": "deadtrees.png"
+  },
+  "states": {
+    "tree_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree_stump": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree_4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 64,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree_5": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 64,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree_6": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 128,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

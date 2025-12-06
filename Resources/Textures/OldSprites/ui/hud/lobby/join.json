@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "source": "join.dmi",
+    "size": {
+      "w": 145,
+      "h": 21
+    },
+    "image": "join.png"
+  },
+  "states": {
+    "join_game": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 145,
+            "h": 21,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "join_game_highlighted": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 21,
+            "w": 145,
+            "h": 21,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "join_game_pressed": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 42,
+            "w": 145,
+            "h": 21,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 0,
+            "y": 63,
+            "w": 145,
+            "h": 21,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    }
+  }
+}

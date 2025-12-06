@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "source": "2x2.dmi",
+    "size": {
+      "w": 64,
+      "h": 64
+    },
+    "image": "2x2.png"
+  },
+  "states": {
+    "large_engine": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 192,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "supplypod": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 0,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "supplypod_falling": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 64,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "supplypod_door": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 64,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "supplypod_open": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 64,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bluespacepod": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 64,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bluespacepod_door": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 64,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bluespacepod_falling": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 128,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "bluespacepod_open": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 128,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "centcompod": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 128,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "centcompod_falling": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 128,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "centcompod_open": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 256,
+            "y": 128,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "centcompod_door": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 192,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "multiduct": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 64,
+            "y": 192,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 128,
+            "y": 192,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 192,
+            "y": 192,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 256,
+            "y": 192,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "multiduct_vertical": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 256,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "multiduct_horizontal": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 256,
+            "w": 64,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

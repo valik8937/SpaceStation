@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "source": "character_setup.dmi",
+    "size": {
+      "w": 139,
+      "h": 37
+    },
+    "image": "character_setup.png"
+  },
+  "states": {
+    "character_setup": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 139,
+            "h": 37,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "character_setup_highlighted": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 37,
+            "w": 139,
+            "h": 37,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "character_setup_pressed": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 74,
+            "w": 139,
+            "h": 37,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 0,
+            "y": 111,
+            "w": 139,
+            "h": 37,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    }
+  }
+}

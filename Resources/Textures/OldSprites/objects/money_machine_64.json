@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "money_machine_64.dmi",
+    "size": {
+      "w": 32,
+      "h": 64
+    },
+    "image": "money_machine_64.png"
+  },
+  "states": {
+    "missile_blur": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 64,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

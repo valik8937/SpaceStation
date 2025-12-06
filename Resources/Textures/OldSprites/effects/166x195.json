@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "166x195.dmi",
+    "size": {
+      "w": 166,
+      "h": 195
+    },
+    "image": "166x195.png"
+  },
+  "states": {
+    "sevtug": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 166,
+            "h": 195,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

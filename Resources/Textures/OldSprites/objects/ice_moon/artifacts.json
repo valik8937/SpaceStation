@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "artifacts.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "artifacts.png"
+  },
+  "states": {
+    "bloodletter": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

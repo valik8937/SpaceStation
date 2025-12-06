@@ -1,0 +1,26 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+*.log
+*.tmp
+
+# Build outputs
+*.dll
+*.exe
+*.pdb
+
+# IDE
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Packages
+packages/

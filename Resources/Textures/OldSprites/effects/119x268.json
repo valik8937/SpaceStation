@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "119x268.dmi",
+    "size": {
+      "w": 119,
+      "h": 268
+    },
+    "image": "119x268.png"
+  },
+  "states": {
+    "inath-neq": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 119,
+            "h": 268,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

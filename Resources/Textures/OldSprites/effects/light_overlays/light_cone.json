@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "source": "light_cone.dmi",
+    "size": {
+      "w": 96,
+      "h": 96
+    },
+    "image": "light_cone.png"
+  },
+  "states": {
+    "light": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 96,
+            "y": 0,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 192,
+            "y": 0,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 0,
+            "y": 96,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ],
+        "southeast": [
+          {
+            "x": 96,
+            "y": 96,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ],
+        "southwest": [
+          {
+            "x": 192,
+            "y": 96,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ],
+        "northeast": [
+          {
+            "x": 0,
+            "y": 192,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ],
+        "northwest": [
+          {
+            "x": 96,
+            "y": 192,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "source": "fulton_balloon.dmi",
+    "size": {
+      "w": 32,
+      "h": 41
+    },
+    "image": "fulton_balloon.png"
+  },
+  "states": {
+    "fulton_balloon": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 41,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fulton_expand": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 41,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 41,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 41,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 0,
+            "y": 41,
+            "w": 32,
+            "h": 41,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "fulton_retract": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 41,
+            "w": 32,
+            "h": 41,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 64,
+            "y": 41,
+            "w": 32,
+            "h": 41,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 96,
+            "y": 41,
+            "w": 32,
+            "h": 41,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 0,
+            "y": 82,
+            "w": 32,
+            "h": 41,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "fulton_noballoon": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 82,
+            "w": 32,
+            "h": 41,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

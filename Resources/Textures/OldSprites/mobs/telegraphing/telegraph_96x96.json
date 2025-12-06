@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "telegraph_96x96.dmi",
+    "size": {
+      "w": 96,
+      "h": 96
+    },
+    "image": "telegraph_96x96.png"
+  },
+  "states": {
+    "target_largebox": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

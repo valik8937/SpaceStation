@@ -1,0 +1,684 @@
+{
+  "meta": {
+    "source": "grass.dmi",
+    "size": {
+      "w": 50,
+      "h": 50
+    },
+    "image": "grass.png"
+  },
+  "states": {
+    "grass-0": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-5": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-6": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-7": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-8": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-9": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-10": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-11": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-12": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-13": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-14": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-15": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-21": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-23": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-29": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-31": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-38": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-39": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-46": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-47": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-55": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-63": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-74": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-75": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-78": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-79": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-95": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-110": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-111": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-127": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-137": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-139": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-141": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-143": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-157": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-159": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-175": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-191": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-203": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-207": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-223": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-239": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "grass-255": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "damaged": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

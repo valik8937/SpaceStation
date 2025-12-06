@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "source": "ore_visuals.dmi",
+    "size": {
+      "w": 480,
+      "h": 480
+    },
+    "image": "ore_visuals.png"
+  },
+  "states": {
+    "rock_Uranium": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rock_Gold": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rock_Diamond": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 960,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rock_Silver": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 1440,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rock_Plasma": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rock_BScrystal": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rock_Gibtonite": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 960,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rock_Titanium": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 1440,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rock_Coal": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 960,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rock_Bananium": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 960,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "rock_Iron": {
+      "loop": true,
+      "directions": {
+        "default": [
+          {
+            "x": 960,
+            "y": 960,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ruby": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 1440,
+            "y": 960,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 1440,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "saphire": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 1440,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

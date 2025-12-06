@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "source": "ethereal_crystal.dmi",
+    "size": {
+      "w": 32,
+      "h": 40
+    },
+    "image": "ethereal_crystal.png"
+  },
+  "states": {
+    "ethereal_crystal_shine": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ethereal_crystal": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ethereal_crystal_forming": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 40,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 0,
+            "y": 40,
+            "w": 32,
+            "h": 40,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 40,
+            "w": 32,
+            "h": 40,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 64,
+            "y": 40,
+            "w": 32,
+            "h": 40,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 0,
+            "y": 80,
+            "w": 32,
+            "h": 40,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 80,
+            "w": 32,
+            "h": 40,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 64,
+            "y": 80,
+            "w": 32,
+            "h": 40,
+            "delay_ms": 400.0
+          }
+        ]
+      }
+    }
+  }
+}

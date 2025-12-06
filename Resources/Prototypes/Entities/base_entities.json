@@ -1,0 +1,90 @@
+[
+  {
+    "ID": "human",
+    "Name": "Human",
+    "Description": "A regular human being.",
+    "Sprite": "Textures/Mobs/human.png",
+    "Components": [
+      {
+        "Type": "PhysicsComponent",
+        "Data": {
+          "Dense": true,
+          "MoveSpeed": 1.0,
+          "Mass": 70
+        }
+      },
+      {
+        "Type": "HealthComponent",
+        "Data": {
+          "MaxHealth": 100
+        }
+      },
+      {
+        "Type": "DamageableComponent",
+        "Data": {}
+      }
+    ]
+  },
+  {
+    "ID": "wall",
+    "Name": "Wall",
+    "Description": "A sturdy metal wall.",
+    "Sprite": "Textures/Turfs/wall.png",
+    "Components": [
+      {
+        "Type": "PhysicsComponent",
+        "Data": {
+          "Dense": true,
+          "Anchored": true
+        }
+      }
+    ]
+  },
+  {
+    "ID": "floor",
+    "Name": "Floor",
+    "Description": "Standard station flooring.",
+    "Sprite": "Textures/Turfs/floor.png",
+    "Components": [
+      {
+        "Type": "PhysicsComponent",
+        "Data": {
+          "Dense": false,
+          "Anchored": true
+        }
+      },
+      {
+        "Type": "AtmosComponent",
+        "Data": {}
+      }
+    ]
+  },
+  {
+    "ID": "crowbar",
+    "Name": "Crowbar",
+    "Description": "A sturdy crowbar for prying things open.",
+    "Sprite": "Textures/Objects/crowbar.png",
+    "Components": [
+      {
+        "Type": "ItemComponent",
+        "Data": {
+          "Weight": 1.5,
+          "Size": "Normal"
+        }
+      },
+      {
+        "Type": "ToolComponent",
+        "Data": {
+          "Qualities": ["Prying"]
+        }
+      },
+      {
+        "Type": "WeaponComponent",
+        "Data": {
+          "Damage": 10,
+          "DamageType": "Brute"
+        }
+      }
+    ]
+  }
+]

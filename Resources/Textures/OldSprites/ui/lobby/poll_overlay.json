@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "poll_overlay.dmi",
+    "size": {
+      "w": 24,
+      "h": 26
+    },
+    "image": "poll_overlay.png"
+  },
+  "states": {
+    "new_poll": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 24,
+            "h": 26,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

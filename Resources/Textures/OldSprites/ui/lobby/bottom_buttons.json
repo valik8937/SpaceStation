@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "source": "bottom_buttons.dmi",
+    "size": {
+      "w": 24,
+      "h": 24
+    },
+    "image": "bottom_buttons.png"
+  },
+  "states": {
+    "poll": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "settings": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 24,
+            "y": 0,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 48,
+            "y": 0,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "crew_manifest": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 72,
+            "y": 0,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "poll_highlighted": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 24,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "settings_highlighted": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 24,
+            "y": 24,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "changelog_highlighted": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 48,
+            "y": 24,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "crew_manifest_highlighted": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 72,
+            "y": 24,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "poll_pressed": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 48,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 24,
+            "y": 48,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "settings_pressed": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 48,
+            "y": 48,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 72,
+            "y": 48,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "changelog_pressed": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 72,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 24,
+            "y": 72,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "crew_manifest_pressed": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 48,
+            "y": 72,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 72,
+            "y": 72,
+            "w": 24,
+            "h": 24,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    }
+  }
+}

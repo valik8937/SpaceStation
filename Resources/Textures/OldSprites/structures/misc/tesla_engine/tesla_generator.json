@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "tesla_generator.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "tesla_generator.png"
+  },
+  "states": {
+    "TheSingGen": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

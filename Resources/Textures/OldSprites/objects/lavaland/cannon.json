@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "source": "cannon.dmi",
+    "size": {
+      "w": 355,
+      "h": 76
+    },
+    "image": "cannon.png"
+  },
+  "states": {
+    "cannon_east": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 355,
+            "h": 76,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cannon_west": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 76,
+            "w": 355,
+            "h": 76,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "top_east": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 152,
+            "w": 355,
+            "h": 76,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "top_west": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 228,
+            "w": 355,
+            "h": 76,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

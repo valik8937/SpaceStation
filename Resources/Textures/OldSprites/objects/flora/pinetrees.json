@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "source": "pinetrees.dmi",
+    "size": {
+      "w": 64,
+      "h": 96
+    },
+    "image": "pinetrees.png"
+  },
+  "states": {
+    "pine_1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pine_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 64,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pine_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 64,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pine_c": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 0,
+            "w": 64,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "festivus_pole": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 96,
+            "w": 64,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "tree_stump": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 96,
+            "w": 64,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "pinepresents": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 96,
+            "w": 64,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "anchored_rod": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 96,
+            "w": 64,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

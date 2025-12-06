@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "member_content.dmi",
+    "size": {
+      "w": 28,
+      "h": 28
+    },
+    "image": "member_content.png"
+  },
+  "states": {
+    "blag": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 28,
+            "h": 28,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "default_title.dmi",
+    "size": {
+      "w": 480,
+      "h": 480
+    },
+    "image": "default_title.png"
+  },
+  "states": {
+    "": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

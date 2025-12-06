@@ -1,0 +1,670 @@
+{
+  "meta": {
+    "source": "fancy_table_cyan.dmi",
+    "size": {
+      "w": 32,
+      "h": 34
+    },
+    "image": "fancy_table_cyan.png"
+  },
+  "states": {
+    "fancy_table_cyan-0": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-5": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-6": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-7": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 0,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-8": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-9": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-10": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-11": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-12": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-13": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-14": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-15": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 34,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-21": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-23": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-29": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-31": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-38": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-39": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-46": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-47": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 68,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-55": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-63": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-74": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-75": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-78": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-79": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-95": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-110": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 102,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-111": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-127": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-137": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-139": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-141": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-143": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-157": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-159": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 224,
+            "y": 136,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-175": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-191": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-203": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-207": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-223": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-239": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "fancy_table_cyan-255": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 192,
+            "y": 170,
+            "w": 32,
+            "h": 34,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

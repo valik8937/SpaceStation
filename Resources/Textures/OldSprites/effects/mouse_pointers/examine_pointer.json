@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "examine_pointer.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "examine_pointer.png"
+  },
+  "states": {
+    "": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

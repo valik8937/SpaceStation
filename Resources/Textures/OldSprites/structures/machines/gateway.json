@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "source": "gateway.dmi",
+    "size": {
+      "w": 96,
+      "h": 96
+    },
+    "image": "gateway.png"
+  },
+  "states": {
+    "portal_frame": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 300.0
+          },
+          {
+            "x": 0,
+            "y": 96,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 300.0
+          }
+        ]
+      }
+    },
+    "portal_mask": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 96,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

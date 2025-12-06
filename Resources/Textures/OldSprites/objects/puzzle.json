@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "puzzle.dmi",
+    "size": {
+      "w": 96,
+      "h": 96
+    },
+    "image": "puzzle.png"
+  },
+  "states": {
+    "example": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

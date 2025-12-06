@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "protocol_c.dmi",
+    "size": {
+      "w": 608,
+      "h": 480
+    },
+    "image": "protocol_c.png"
+  },
+  "states": {
+    "blank": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 608,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

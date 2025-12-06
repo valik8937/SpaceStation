@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "source": "observe.dmi",
+    "size": {
+      "w": 139,
+      "h": 22
+    },
+    "image": "observe.png"
+  },
+  "states": {
+    "observe": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 139,
+            "h": 22,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "observe_highlighted": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 139,
+            "y": 0,
+            "w": 139,
+            "h": 22,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "observe_pressed": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 22,
+            "w": 139,
+            "h": 22,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 139,
+            "y": 22,
+            "w": 139,
+            "h": 22,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "observe_enabled": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 44,
+            "w": 139,
+            "h": 22,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 139,
+            "y": 44,
+            "w": 139,
+            "h": 22,
+            "delay_ms": 600.0
+          },
+          {
+            "x": 0,
+            "y": 66,
+            "w": 139,
+            "h": 22,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 139,
+            "y": 66,
+            "w": 139,
+            "h": 22,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 0,
+            "y": 88,
+            "w": 139,
+            "h": 22,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 139,
+            "y": 88,
+            "w": 139,
+            "h": 22,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "observe_disabled": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 110,
+            "w": 139,
+            "h": 22,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

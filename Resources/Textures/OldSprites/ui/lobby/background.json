@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "background.dmi",
+    "size": {
+      "w": 151,
+      "h": 123
+    },
+    "image": "background.png"
+  },
+  "states": {
+    "background": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 151,
+            "h": 123,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

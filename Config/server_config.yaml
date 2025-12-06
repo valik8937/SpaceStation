@@ -1,0 +1,28 @@
+# Space Station Configuration
+
+# Server Settings
+server:
+  name: "Space Station 13"
+  port: 7777
+  max_players: 100
+  tick_rate: 20
+
+# Game Settings
+game:
+  lobby_time: 180  # seconds
+  round_duration: 7200  # 2 hours
+  ghost_can_reenter: true
+  
+# Admin Settings
+admin:
+  enable_voting: true
+  vote_delay: 120
+
+# Map Settings
+map:
+  default_map: "boxstation"
+  rotation_enabled: true
+  maps:
+    - boxstation
+    - metastation
+    - deltastation

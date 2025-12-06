@@ -1,0 +1,684 @@
+{
+  "meta": {
+    "source": "junglegrass.dmi",
+    "size": {
+      "w": 50,
+      "h": 50
+    },
+    "image": "junglegrass.png"
+  },
+  "states": {
+    "junglegrass-0": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-5": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-6": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 0,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-7": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-8": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-9": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-10": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-11": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-12": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-13": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 50,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-14": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-15": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-21": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-23": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-29": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-31": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-38": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 100,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-39": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-46": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-47": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-55": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-63": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-74": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-75": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 150,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-78": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-79": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-95": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-110": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-111": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-127": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-137": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 200,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-139": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-141": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-143": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-157": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-159": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-175": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-191": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 300,
+            "y": 250,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-203": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-207": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 50,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-223": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 100,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-239": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 150,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "junglegrass-255": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "damaged": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 250,
+            "y": 300,
+            "w": 50,
+            "h": 50,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

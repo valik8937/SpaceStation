@@ -1,0 +1,670 @@
+{
+  "meta": {
+    "source": "weeds3.dmi",
+    "size": {
+      "w": 40,
+      "h": 40
+    },
+    "image": "weeds3.png"
+  },
+  "states": {
+    "weeds3-0": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-5": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-6": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 0,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-7": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-8": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-9": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-10": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-11": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-12": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-13": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 40,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-14": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-15": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-21": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-23": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-29": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-31": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-38": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 80,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-39": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-46": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-47": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-55": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-63": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-74": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-75": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 120,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-78": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-79": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-95": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-110": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-111": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-127": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-137": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 160,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-139": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-141": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-143": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-157": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-159": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-175": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 200,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-191": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 240,
+            "y": 200,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-203": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 240,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-207": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 40,
+            "y": 240,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-223": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 80,
+            "y": 240,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-239": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 120,
+            "y": 240,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "weeds3-255": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 240,
+            "w": 40,
+            "h": 40,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

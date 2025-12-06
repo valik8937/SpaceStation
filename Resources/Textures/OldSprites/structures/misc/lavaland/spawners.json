@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "source": "spawners.dmi",
+    "size": {
+      "w": 32,
+      "h": 36
+    },
+    "image": "spawners.png"
+  },
+  "states": {
+    "terrarium": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 36,
+            "delay_ms": 1000.0
+          },
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 36,
+            "delay_ms": 1000.0
+          },
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 36,
+            "delay_ms": 1000.0
+          }
+        ]
+      }
+    },
+    "terrarium_open": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 36,
+            "w": 32,
+            "h": 36,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cryostasis_sleeper": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 36,
+            "w": 32,
+            "h": 36,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cryostasis_sleeper_open": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 36,
+            "w": 32,
+            "h": 36,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

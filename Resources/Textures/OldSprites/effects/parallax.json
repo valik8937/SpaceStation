@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "source": "parallax.dmi",
+    "size": {
+      "w": 480,
+      "h": 480
+    },
+    "image": "parallax.png"
+  },
+  "states": {
+    "layer1": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50000.0
+          },
+          {
+            "x": 480,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 960,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 1440,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50.0
+          },
+          {
+            "x": 1920,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50.0
+          }
+        ]
+      }
+    },
+    "layer1_2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 2400,
+            "y": 0,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "layer1_3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "layer1_4": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 50000.0
+          },
+          {
+            "x": 960,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 1440,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 1920,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "layer1_5": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 2400,
+            "y": 480,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "layer2": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 960,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "layer3": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 960,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "nebula": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 960,
+            "y": 960,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "space_gas": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 1440,
+            "y": 960,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "ice_surface": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 1920,
+            "y": 960,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "clouds": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 2400,
+            "y": 960,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "planet_lavaland": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 1440,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "cyberspess": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 1440,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 960,
+            "y": 1440,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 1440,
+            "y": 1440,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 1920,
+            "y": 1440,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 2400,
+            "y": 1440,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 200.0
+          },
+          {
+            "x": 0,
+            "y": 1920,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 200.0
+          }
+        ]
+      }
+    },
+    "mazespace": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 480,
+            "y": 1920,
+            "w": 480,
+            "h": 480,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

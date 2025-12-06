@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "source": "supermatter.dmi",
+    "size": {
+      "w": 32,
+      "h": 48
+    },
+    "image": "supermatter.png"
+  },
+  "states": {
+    "darkmatter": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 500.0
+          },
+          {
+            "x": 96,
+            "y": 0,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 500.0
+          }
+        ]
+      }
+    },
+    "darkmatter_glow": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 0,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 160,
+            "y": 0,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 0,
+            "y": 48,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 32,
+            "y": 48,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 250.0
+          }
+        ]
+      }
+    },
+    "darkmatter_shard": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 64,
+            "y": 48,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "darkmatter_shard_glow": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 48,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 250.0
+          },
+          {
+            "x": 128,
+            "y": 48,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 250.0
+          }
+        ]
+      }
+    },
+    "causality_field": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 48,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 1000.0
+          },
+          {
+            "x": 0,
+            "y": 96,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 96,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 64,
+            "y": 96,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "stabilizer": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 96,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "psy": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 128,
+            "y": 96,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "psy_shielded": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 160,
+            "y": 96,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 1000.0
+          },
+          {
+            "x": 0,
+            "y": 144,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 32,
+            "y": 144,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 100.0
+          },
+          {
+            "x": 64,
+            "y": 144,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 100.0
+          }
+        ]
+      }
+    },
+    "psy_shard": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 96,
+            "y": 144,
+            "w": 32,
+            "h": 48,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

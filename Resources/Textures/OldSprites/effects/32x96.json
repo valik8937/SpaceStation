@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "source": "32x96.dmi",
+    "size": {
+      "w": 32,
+      "h": 96
+    },
+    "image": "32x96.png"
+  },
+  "states": {
+    "chain": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    },
+    "thunderbolt": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 32,
+            "y": 0,
+            "w": 32,
+            "h": 96,
+            "delay_ms": 120.0
+          },
+          {
+            "x": 64,
+            "y": 0,
+            "w": 32,
+            "h": 96,
+            "delay_ms": 80.0
+          }
+        ]
+      }
+    }
+  }
+}

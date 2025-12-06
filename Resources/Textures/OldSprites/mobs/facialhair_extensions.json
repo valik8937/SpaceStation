@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "source": "facialhair_extensions.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "facialhair_extensions.png"
+  },
+  "states": {}
+}

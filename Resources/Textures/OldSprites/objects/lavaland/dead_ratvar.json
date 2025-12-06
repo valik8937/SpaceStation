@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "dead_ratvar.dmi",
+    "size": {
+      "w": 440,
+      "h": 196
+    },
+    "image": "dead_ratvar.png"
+  },
+  "states": {
+    "dead_ratvar": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 440,
+            "h": 196,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

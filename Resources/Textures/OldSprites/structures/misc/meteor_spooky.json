@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "source": "meteor_spooky.dmi",
+    "size": {
+      "w": 96,
+      "h": 96
+    },
+    "image": "meteor_spooky.png"
+  },
+  "states": {
+    "pumpkin": {
+      "loop": false,
+      "directions": {
+        "south": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ],
+        "north": [
+          {
+            "x": 96,
+            "y": 0,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ],
+        "east": [
+          {
+            "x": 0,
+            "y": 96,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ],
+        "west": [
+          {
+            "x": 96,
+            "y": 96,
+            "w": 96,
+            "h": 96,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}

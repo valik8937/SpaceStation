@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "bayonets.dmi",
+    "size": {
+      "w": 32,
+      "h": 32
+    },
+    "image": "bayonets.png"
+  },
+  "states": {
+    "bayonet": {
+      "loop": false,
+      "directions": {
+        "default": [
+          {
+            "x": 0,
+            "y": 0,
+            "w": 32,
+            "h": 32,
+            "delay_ms": 100
+          }
+        ]
+      }
+    }
+  }
+}
