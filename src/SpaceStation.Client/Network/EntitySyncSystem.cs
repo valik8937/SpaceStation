@@ -22,11 +22,19 @@ public sealed class EntitySyncSystem
     /// Fallback texture for entities without valid sprites.
     /// </summary>
     public Texture2D? DefaultTexture { get; set; }
-    
+
     /// <summary>
     /// Resource manager for loading sprites.
     /// </summary>
     public ResourceManager? ResourceManager { get; set; }
+
+    /// <summary>
+    /// Gets local entity by network ID.
+    /// </summary>
+    public Entity? GetEntityByNetId(int netId)
+    {
+        return _networkToLocal.TryGetValue(netId, out var entity) ? entity : null;
+    }
 
     /// <summary>
     /// Applies a world snapshot to the local ECS world.
@@ -118,22 +126,22 @@ public sealed class EntitySyncSystem
 
         return entity;
     }
-    
+
     private Sprite CreateSprite(NetworkEntity netEntity)
     {
         Texture2D? texture = DefaultTexture;
         Rectangle sourceRect = Rectangle.Empty;
         Color tint = Color.White;
         float scale = 1f;
-        
+
         // Try to load from ResourceManager if sprite data is present
         if (netEntity.Sprite.HasValue && ResourceManager != null)
         {
             var netSprite = netEntity.Sprite.Value;
-            
+
             // Try to get sprite from resource manager
             var spriteData = ResourceManager.GetSprite(netSprite.TextureId);
-            
+
             if (spriteData.IsValid)
             {
                 texture = spriteData.Texture;
@@ -144,13 +152,13 @@ public sealed class EntitySyncSystem
                 // Missing texture - use magenta fallback
                 tint = Color.Magenta;
             }
-            
+
             // Use network tint if provided
             if (netSprite.TintA > 0)
             {
                 tint = new Color(netSprite.TintR, netSprite.TintG, netSprite.TintB, netSprite.TintA);
             }
-            
+
             scale = netSprite.Scale > 0 ? netSprite.Scale : 1f;
         }
         else
@@ -158,7 +166,7 @@ public sealed class EntitySyncSystem
             // No sprite data from network - use procedural color
             tint = DetermineColor(netEntity);
         }
-        
+
         return new Sprite(texture, sourceRect, tint, scale, 0.5f);
     }
 

@@ -18,6 +18,21 @@ public static class PacketSerializer
     }
     
     /// <summary>
+    /// Generic deserialize method for any MemoryPackable packet.
+    /// </summary>
+    public static T? Deserialize<T>(byte[] data) where T : class
+    {
+        try
+        {
+            return MemoryPackSerializer.Deserialize<T>(data);
+        }
+        catch
+        {
+            return null;
+        }
+    }
+    
+    /// <summary>
     /// Deserializes a world snapshot packet from bytes.
     /// </summary>
     public static WorldSnapshotPacket? DeserializeSnapshot(byte[] data)

@@ -21,6 +21,9 @@ public sealed class ClientNetworkManager : INetEventListener, IDisposable
     public int ClientId => _clientId;
     public int Ping => _serverPeer?.Ping ?? 0;
     
+    /// <summary>Network entity ID of local player (0 if not assigned).</summary>
+    public int PlayerEntityId { get; private set; }
+    
     /// <summary>Event when connected to server.</summary>
     public event Action<int>? OnConnected;
     
@@ -29,6 +32,9 @@ public sealed class ClientNetworkManager : INetEventListener, IDisposable
     
     /// <summary>Event when world snapshot received.</summary>
     public event Action<WorldSnapshotPacket>? OnSnapshotReceived;
+    
+    /// <summary>Event when player entity is assigned.</summary>
+    public event Action<int>? OnPlayerSpawned;
     
     public ClientNetworkManager()
     {
@@ -148,6 +154,16 @@ public sealed class ClientNetworkManager : INetEventListener, IDisposable
                 _clientId = connectionAccepted.ClientId;
                 Console.WriteLine($"[Network] Connection accepted! Client ID: {_clientId}");
                 OnConnected?.Invoke(_clientId);
+                return;
+            }
+            
+            // Try PlayerSpawned packet
+            var playerSpawned = PacketSerializer.Deserialize<PlayerSpawnedPacket>(data);
+            if (playerSpawned != null && playerSpawned.Header.Type == PacketType.PlayerSpawned)
+            {
+                PlayerEntityId = playerSpawned.EntityId;
+                Console.WriteLine($"[Network] Player entity assigned: {PlayerEntityId}");
+                OnPlayerSpawned?.Invoke(PlayerEntityId);
                 return;
             }
             

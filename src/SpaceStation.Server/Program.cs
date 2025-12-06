@@ -32,9 +32,16 @@ public sealed class GameServer : IDisposable
     private readonly Dictionary<int, Entity> _netIdToEntity = new();
     private int _nextNetworkId = 1;
 
+    // Player sessions: ClientId -> Player Entity
+    private readonly Dictionary<int, Entity> _playerSessions = new();
+
     // Query for entities with Transform (all syncable entities)
     private static readonly QueryDescription SyncableQuery = new QueryDescription()
         .WithAll<Transform>();
+
+    // Query for player-controlled entities
+    private static readonly QueryDescription PlayerQuery = new QueryDescription()
+        .WithAll<Player, Transform, Physics>();
 
     public GameServer()
     {
@@ -58,6 +65,7 @@ public sealed class GameServer : IDisposable
         // Subscribe to network events
         _network.OnClientConnected += OnClientConnected;
         _network.OnClientDisconnected += OnClientDisconnected;
+        _network.OnDataReceived += OnDataReceived;
     }
 
     /// <summary>
@@ -67,7 +75,7 @@ public sealed class GameServer : IDisposable
     {
         Console.WriteLine("╔════════════════════════════════════════╗");
         Console.WriteLine("║     Space Station 13 - C# Remake       ║");
-        Console.WriteLine("║          SERVER v0.4.0-DATA             ║");
+        Console.WriteLine("║          SERVER v0.4.0-DATA            ║");
         Console.WriteLine("╚════════════════════════════════════════╝");
         Console.WriteLine();
 
@@ -167,17 +175,105 @@ public sealed class GameServer : IDisposable
 
     private void OnClientConnected(int clientId, NetPeer peer)
     {
-        Console.WriteLine($"[Server] Sending initial world state to client {clientId}");
+        Console.WriteLine($"[Server] Client {clientId} connected, spawning player...");
 
-        // Send full world snapshot to newly connected client
+        // Spawn player entity
+        var spawnPos = new System.Numerics.Vector2(7, 7); // Center of map
+        var playerEntity = _entityFactory.Spawn(_world, "Human", spawnPos);
+
+        if (playerEntity.HasValue)
+        {
+            var entity = playerEntity.Value;
+
+            // Add Player component
+            _world.Add(entity, new Player(clientId, $"Player {clientId}"));
+            _world.Add(entity, new InputState());
+
+            // Track session
+            _playerSessions[clientId] = entity;
+
+            // Get network ID
+            if (_entityRegistry.TryGetValue(entity, out var reg))
+            {
+                // Tell client which entity is theirs
+                var packet = new PlayerSpawnedPacket { EntityId = reg.NetId };
+                var data = PacketSerializer.Serialize(packet);
+                _network.SendTo(clientId, data, DeliveryMethod.ReliableOrdered);
+
+                Console.WriteLine($"[Server] Spawned player entity {reg.NetId} for client {clientId}");
+            }
+        }
+
+        // Send full world snapshot
         var snapshot = BuildWorldSnapshot();
-        var data = PacketSerializer.Serialize(snapshot);
-        _network.SendTo(clientId, data, DeliveryMethod.ReliableOrdered);
+        var snapshotData = PacketSerializer.Serialize(snapshot);
+        _network.SendTo(clientId, snapshotData, DeliveryMethod.ReliableOrdered);
     }
 
     private void OnClientDisconnected(int clientId)
     {
-        Console.WriteLine($"[Server] Client {clientId} left the game");
+        Console.WriteLine($"[Server] Client {clientId} disconnected");
+
+        // Remove player entity
+        if (_playerSessions.TryGetValue(clientId, out var entity))
+        {
+            if (_world.IsAlive(entity))
+            {
+                // Unregister from network
+                if (_entityRegistry.TryGetValue(entity, out var reg))
+                {
+                    _netIdToEntity.Remove(reg.NetId);
+                    _entityRegistry.Remove(entity);
+                }
+
+                _world.Destroy(entity);
+            }
+            _playerSessions.Remove(clientId);
+        }
+    }
+
+    private void OnDataReceived(int clientId, byte[] data)
+    {
+        try
+        {
+            // Try to deserialize as PlayerInputPacket
+            var inputPacket = PacketSerializer.Deserialize<PlayerInputPacket>(data);
+            if (inputPacket != null)
+            {
+                HandlePlayerInput(clientId, inputPacket);
+            }
+        }
+        catch
+        {
+            // Unknown packet, ignore
+        }
+    }
+
+    private void HandlePlayerInput(int clientId, PlayerInputPacket input)
+    {
+        if (!_playerSessions.TryGetValue(clientId, out var entity))
+            return;
+
+        if (!_world.IsAlive(entity))
+            return;
+
+        // Update InputState
+        if (_world.Has<InputState>(entity))
+        {
+            _world.Set(entity, new InputState(input.MoveX, input.MoveY));
+        }
+
+        // Apply velocity directly to Physics
+        if (_world.Has<Physics>(entity))
+        {
+            ref var physics = ref _world.Get<Physics>(entity);
+            var moveSpeed = physics.MoveSpeed;
+            var velocity = new System.Numerics.Vector2(
+                input.MoveX * moveSpeed,
+                input.MoveY * moveSpeed
+            );
+            physics = physics with { Velocity = velocity };
+        }
     }
 
     /// <summary>

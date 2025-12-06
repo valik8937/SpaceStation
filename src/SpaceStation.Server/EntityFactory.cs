@@ -329,6 +329,12 @@ public sealed class EntityFactory
             case Turf t:
                 world.Add(entity, t);
                 break;
+            case Player pl:
+                world.Add(entity, pl);
+                break;
+            case InputState inp:
+                world.Add(entity, inp);
+                break;
             default:
                 // Fallback to reflection for unknown types
                 AddComponentDynamic(world, entity, component);

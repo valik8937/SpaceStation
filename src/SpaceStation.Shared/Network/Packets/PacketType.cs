@@ -22,6 +22,7 @@ public enum PacketType : byte
     PlayerCommand = 41,
     PlayerMove = 42,
     PlayerInteract = 43,
+    PlayerSpawned = 44,
     
     // Chat (60-79)
     ChatMessage = 60,

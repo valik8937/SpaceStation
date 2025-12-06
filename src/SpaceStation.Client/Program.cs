@@ -1,4 +1,5 @@
 ﻿using Arch.Core;
+using LiteNetLib;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -9,6 +10,7 @@ using SpaceStation.Client.Graphics;
 using SpaceStation.Client.Network;
 using SpaceStation.Client.Resources;
 using SpaceStation.Shared.Network;
+using SpaceStation.Shared.Network.Packets;
 
 namespace SpaceStation.Client;
 
@@ -38,6 +40,12 @@ public class SpaceStationGame : Game
     // Resources
     private ResourceManager _resourceManager = null!;
 
+    // Local player
+    private int _localPlayerEntityId;
+    private uint _inputTick;
+    private const float MinZoom = 0.5f;  // Max zoom out (27x15 tiles)
+    private const float MaxZoom = 2f;    // Max zoom in
+
     // Debug
     private Texture2D? _pixel;
     private int _entityCount;
@@ -62,7 +70,7 @@ public class SpaceStationGame : Game
     {
         Console.WriteLine("╔════════════════════════════════════════╗");
         Console.WriteLine("║     Space Station 13 - C# Remake       ║");
-        Console.WriteLine("║          CLIENT v0.3.0-NET              ║");
+        Console.WriteLine("║          CLIENT v0.3.0-NET             ║");
         Console.WriteLine("╚════════════════════════════════════════╝");
         Console.WriteLine();
 
@@ -84,6 +92,7 @@ public class SpaceStationGame : Game
         _network = new ClientNetworkManager();
         _network.OnConnected += OnConnected;
         _network.OnDisconnected += OnDisconnected;
+        _network.OnPlayerSpawned += OnPlayerSpawned;
         _network.Start();
 
         // Connect to localhost by default
@@ -107,11 +116,18 @@ public class SpaceStationGame : Game
     private void OnDisconnected(string reason)
     {
         _connected = false;
+        _localPlayerEntityId = 0;
         Window.Title = "Space Station 13 - Disconnected";
         Console.WriteLine($"[Client] Disconnected: {reason}");
 
         // Clear synced entities
         _entitySync.Clear(_world);
+    }
+
+    private void OnPlayerSpawned(int entityId)
+    {
+        _localPlayerEntityId = entityId;
+        Console.WriteLine($"[Client] Local player entity: {entityId}");
     }
 
     protected override void LoadContent()
@@ -124,7 +140,7 @@ public class SpaceStationGame : Game
 
         // Initialize resource manager and load textures
         _resourceManager = new ResourceManager(GraphicsDevice);
-        
+
         // Try to load textures from Resources/Textures
         var texturePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..", "..", "Resources", "Textures");
         if (Directory.Exists(texturePath))
@@ -211,26 +227,77 @@ public class SpaceStationGame : Game
             _network.Connect("localhost", NetworkConstants.DefaultPort);
         }
 
-        // Camera movement
-        const float cameraSpeed = 300f;
-        var cameraMove = Vector2.Zero;
+        // Player movement (WASD) - send to server
+        if (_connected && _localPlayerEntityId > 0)
+        {
+            float moveX = 0, moveY = 0;
 
-        if (keyboard.IsKeyDown(Keys.W) || keyboard.IsKeyDown(Keys.Up))
-            cameraMove.Y -= cameraSpeed * deltaTime;
-        if (keyboard.IsKeyDown(Keys.S) || keyboard.IsKeyDown(Keys.Down))
-            cameraMove.Y += cameraSpeed * deltaTime;
-        if (keyboard.IsKeyDown(Keys.A) || keyboard.IsKeyDown(Keys.Left))
-            cameraMove.X -= cameraSpeed * deltaTime;
-        if (keyboard.IsKeyDown(Keys.D) || keyboard.IsKeyDown(Keys.Right))
-            cameraMove.X += cameraSpeed * deltaTime;
+            if (keyboard.IsKeyDown(Keys.W) || keyboard.IsKeyDown(Keys.Up))
+                moveY = -1;
+            if (keyboard.IsKeyDown(Keys.S) || keyboard.IsKeyDown(Keys.Down))
+                moveY = 1;
+            if (keyboard.IsKeyDown(Keys.A) || keyboard.IsKeyDown(Keys.Left))
+                moveX = -1;
+            if (keyboard.IsKeyDown(Keys.D) || keyboard.IsKeyDown(Keys.Right))
+                moveX = 1;
 
-        _camera.Position += cameraMove;
+            // Send input to server
+            var inputPacket = new PlayerInputPacket
+            {
+                MoveX = moveX,
+                MoveY = moveY,
+                InputTick = _inputTick++
+            };
+            var data = PacketSerializer.Serialize(inputPacket);
+            _network.Send(data, DeliveryMethod.Sequenced);
 
-        // Camera zoom
+            // Camera follows local player
+            UpdateCameraFollow();
+        }
+        else
+        {
+            // Free camera when not controlling player (arrow keys)
+            const float cameraSpeed = 300f;
+            var cameraMove = Vector2.Zero;
+
+            if (keyboard.IsKeyDown(Keys.Up))
+                cameraMove.Y -= cameraSpeed * deltaTime;
+            if (keyboard.IsKeyDown(Keys.Down))
+                cameraMove.Y += cameraSpeed * deltaTime;
+            if (keyboard.IsKeyDown(Keys.Left))
+                cameraMove.X -= cameraSpeed * deltaTime;
+            if (keyboard.IsKeyDown(Keys.Right))
+                cameraMove.X += cameraSpeed * deltaTime;
+
+            _camera.Position += cameraMove;
+        }
+
+        // Camera zoom with mouse scroll
+        var mouse = Mouse.GetState();
+        var scrollDelta = mouse.ScrollWheelValue / 1200f;
+        _camera.Zoom = MathHelper.Clamp(_camera.Zoom + scrollDelta * 0.1f, MinZoom, MaxZoom);
+
+        // Keyboard zoom
         if (keyboard.IsKeyDown(Keys.OemPlus) || keyboard.IsKeyDown(Keys.Add))
-            _camera.Zoom = MathF.Min(4f, _camera.Zoom + deltaTime * 2);
+            _camera.Zoom = MathF.Min(MaxZoom, _camera.Zoom + deltaTime * 2);
         if (keyboard.IsKeyDown(Keys.OemMinus) || keyboard.IsKeyDown(Keys.Subtract))
-            _camera.Zoom = MathF.Max(0.25f, _camera.Zoom - deltaTime * 2);
+            _camera.Zoom = MathF.Max(MinZoom, _camera.Zoom - deltaTime * 2);
+    }
+
+    private void UpdateCameraFollow()
+    {
+        // Find local player entity and follow it
+        if (_localPlayerEntityId <= 0) return;
+
+        var localEntity = _entitySync.GetEntityByNetId(_localPlayerEntityId);
+        if (localEntity.HasValue && _world.IsAlive(localEntity.Value))
+        {
+            var transform = _world.Get<Transform>(localEntity.Value);
+            var targetPos = new Vector2(transform.Position.X * 32, transform.Position.Y * 32);
+
+            // Smooth camera follow (lerp)
+            _camera.Position = Vector2.Lerp(_camera.Position, targetPos, 0.15f);
+        }
     }
 
     protected override void Draw(GameTime gameTime)
@@ -240,8 +307,8 @@ public class SpaceStationGame : Game
         // Render all entities
         _renderSystem.Draw(_world, _spriteBatch, _camera, GraphicsDevice.Viewport);
 
-        // Draw debug info
-        DrawDebugInfo();
+        // Draw debug info (commented for clean gameplay view)
+        // DrawDebugInfo();
 
         base.Draw(gameTime);
     }

@@ -95,3 +95,43 @@ public partial class ConnectionDeniedPacket
         Header = new PacketHeader { Type = PacketType.ConnectionDenied };
     }
 }
+
+/// <summary>
+/// Player input from client to server.
+/// Contains movement direction from WASD.
+/// </summary>
+[MemoryPackable]
+public partial class PlayerInputPacket
+{
+    public PacketHeader Header { get; set; }
+    
+    /// <summary>Movement direction: X (-1 left, 1 right), Y (-1 up, 1 down)</summary>
+    public float MoveX { get; set; }
+    public float MoveY { get; set; }
+    
+    /// <summary>Tick when input was generated (for lag compensation)</summary>
+    public uint InputTick { get; set; }
+    
+    public PlayerInputPacket()
+    {
+        Header = new PacketHeader { Type = PacketType.PlayerInput };
+    }
+}
+
+/// <summary>
+/// Sent to client when their player entity is spawned.
+/// Tells client which entity to follow with camera.
+/// </summary>
+[MemoryPackable]
+public partial class PlayerSpawnedPacket
+{
+    public PacketHeader Header { get; set; }
+    
+    /// <summary>Network entity ID of the player's mob.</summary>
+    public int EntityId { get; set; }
+    
+    public PlayerSpawnedPacket()
+    {
+        Header = new PacketHeader { Type = PacketType.PlayerSpawned };
+    }
+}
