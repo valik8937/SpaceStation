@@ -22,15 +22,3 @@ public record struct Physics(
     bool Dense = true,
     bool Anchored = false
 );
-
-/// <summary>
-/// Collision component for collision detection.
-/// </summary>
-public record struct Collision(
-    int Layer = 1,
-    int Mask = -1,
-    Vector2 Size = default
-)
-{
-    public Collision() : this(1, -1, new Vector2(1f, 1f)) { }
-}

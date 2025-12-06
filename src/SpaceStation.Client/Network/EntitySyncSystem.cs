@@ -1,8 +1,10 @@
 using Arch.Core;
 using Arch.Core.Extensions;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using SpaceStation.Content.Components;
 using SpaceStation.Client.Graphics;
+using SpaceStation.Client.Resources;
 using SpaceStation.Shared.Network.Packets;
 using SpaceStation.Shared.Enums;
 
@@ -17,9 +19,14 @@ public sealed class EntitySyncSystem
     private readonly Dictionary<Entity, int> _localToNetwork = new();
 
     /// <summary>
-    /// Texture to use for entities (must be set before ApplySnapshot).
+    /// Fallback texture for entities without valid sprites.
     /// </summary>
-    public Microsoft.Xna.Framework.Graphics.Texture2D? DefaultTexture { get; set; }
+    public Texture2D? DefaultTexture { get; set; }
+    
+    /// <summary>
+    /// Resource manager for loading sprites.
+    /// </summary>
+    public ResourceManager? ResourceManager { get; set; }
 
     /// <summary>
     /// Applies a world snapshot to the local ECS world.
@@ -71,16 +78,8 @@ public sealed class EntitySyncSystem
             netEntity.Transform.ZLevel
         );
 
-        // Determine sprite color based on entity properties
-        var color = DetermineColor(netEntity);
-
-        var sprite = new Sprite(
-            DefaultTexture,
-            Microsoft.Xna.Framework.Rectangle.Empty,
-            color,
-            1f,
-            0.5f
-        );
+        // Get sprite from network data or fallback
+        var sprite = CreateSprite(netEntity);
 
         Entity entity;
 
@@ -119,6 +118,50 @@ public sealed class EntitySyncSystem
 
         return entity;
     }
+    
+    private Sprite CreateSprite(NetworkEntity netEntity)
+    {
+        Texture2D? texture = DefaultTexture;
+        Rectangle sourceRect = Rectangle.Empty;
+        Color tint = Color.White;
+        float scale = 1f;
+        
+        // Try to load from ResourceManager if sprite data is present
+        if (netEntity.Sprite.HasValue && ResourceManager != null)
+        {
+            var netSprite = netEntity.Sprite.Value;
+            
+            // Try to get sprite from resource manager
+            var spriteData = ResourceManager.GetSprite(netSprite.TextureId);
+            
+            if (spriteData.IsValid)
+            {
+                texture = spriteData.Texture;
+                sourceRect = spriteData.SourceRect;
+            }
+            else
+            {
+                // Missing texture - use magenta fallback
+                tint = Color.Magenta;
+            }
+            
+            // Use network tint if provided
+            if (netSprite.TintA > 0)
+            {
+                tint = new Color(netSprite.TintR, netSprite.TintG, netSprite.TintB, netSprite.TintA);
+            }
+            
+            scale = netSprite.Scale > 0 ? netSprite.Scale : 1f;
+        }
+        else
+        {
+            // No sprite data from network - use procedural color
+            tint = DetermineColor(netEntity);
+        }
+        
+        return new Sprite(texture, sourceRect, tint, scale, 0.5f);
+    }
+
 
     private void UpdateEntity(World world, Entity entity, NetworkEntity netEntity)
     {

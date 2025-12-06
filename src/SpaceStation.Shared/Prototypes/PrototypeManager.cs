@@ -8,6 +8,13 @@ namespace SpaceStation.Shared.Prototypes;
 public sealed class PrototypeManager
 {
     private readonly Dictionary<Type, Dictionary<string, IPrototype>> _prototypes = new();
+    
+    private static readonly JsonSerializerOptions JsonOptions = new()
+    {
+        PropertyNameCaseInsensitive = true,
+        ReadCommentHandling = JsonCommentHandling.Skip,
+        AllowTrailingCommas = true
+    };
 
     /// <summary>
     /// Registers a prototype.
@@ -17,7 +24,7 @@ public sealed class PrototypeManager
         var type = typeof(T);
         if (!_prototypes.ContainsKey(type))
         {
-            _prototypes[type] = new Dictionary<string, IPrototype>();
+            _prototypes[type] = new Dictionary<string, IPrototype>(StringComparer.OrdinalIgnoreCase);
         }
         _prototypes[type][prototype.ID] = prototype;
     }
@@ -64,18 +71,18 @@ public sealed class PrototypeManager
     {
         return _prototypes.TryGetValue(typeof(T), out var dict) && dict.ContainsKey(id);
     }
+    
+    /// <summary>
+    /// Total prototype count.
+    /// </summary>
+    public int PrototypeCount => _prototypes.Values.Sum(d => d.Count);
 
     /// <summary>
     /// Loads prototypes from a JSON file.
     /// </summary>
     public void LoadFromJson<T>(string json) where T : IPrototype
     {
-        var options = new JsonSerializerOptions
-        {
-            PropertyNameCaseInsensitive = true
-        };
-
-        var prototypes = JsonSerializer.Deserialize<List<T>>(json, options);
+        var prototypes = JsonSerializer.Deserialize<List<T>>(json, JsonOptions);
         if (prototypes == null) return;
 
         foreach (var prototype in prototypes)
@@ -83,4 +90,90 @@ public sealed class PrototypeManager
             Register(prototype);
         }
     }
+    
+    /// <summary>
+    /// Loads all JSON prototype files from a directory recursively.
+    /// </summary>
+    public void LoadDirectory(string path)
+    {
+        if (!Directory.Exists(path))
+        {
+            Console.WriteLine($"[PrototypeManager] Directory not found: {path}");
+            return;
+        }
+        
+        var jsonFiles = Directory.GetFiles(path, "*.json", SearchOption.AllDirectories);
+        var loaded = 0;
+        var errors = 0;
+        
+        foreach (var file in jsonFiles)
+        {
+            try
+            {
+                var json = File.ReadAllText(file);
+                LoadFromJson<EntityPrototype>(json);
+                loaded++;
+            }
+            catch (Exception ex)
+            {
+                errors++;
+                Console.WriteLine($"[PrototypeManager] Error loading {file}: {ex.Message}");
+            }
+        }
+        
+        // Resolve parent inheritance
+        ResolveInheritance();
+        
+        Console.WriteLine($"[PrototypeManager] Loaded {loaded} files, {PrototypeCount} prototypes, {errors} errors");
+    }
+    
+    /// <summary>
+    /// Resolves prototype inheritance (Parent field).
+    /// </summary>
+    private void ResolveInheritance()
+    {
+        if (!_prototypes.TryGetValue(typeof(EntityPrototype), out var entityDict))
+            return;
+            
+        foreach (var proto in entityDict.Values.Cast<EntityPrototype>())
+        {
+            if (string.IsNullOrEmpty(proto.Parent))
+                continue;
+                
+            if (!entityDict.TryGetValue(proto.Parent, out var parentProto))
+            {
+                Console.WriteLine($"[PrototypeManager] Warning: Prototype '{proto.ID}' has unknown parent '{proto.Parent}'");
+                continue;
+            }
+            
+            var parent = (EntityPrototype)parentProto;
+            
+            // Inherit name if not set
+            if (string.IsNullOrEmpty(proto.Name))
+                proto.Name = parent.Name;
+                
+            // Inherit description if not set
+            if (string.IsNullOrEmpty(proto.Description))
+                proto.Description = parent.Description;
+                
+            // Inherit sprite if not set
+            if (string.IsNullOrEmpty(proto.Sprite))
+                proto.Sprite = parent.Sprite;
+                
+            // Merge components (child overrides parent)
+            var parentComponents = new Dictionary<string, ComponentData>(StringComparer.OrdinalIgnoreCase);
+            foreach (var comp in parent.Components)
+            {
+                parentComponents[comp.Type] = comp;
+            }
+            
+            foreach (var comp in proto.Components)
+            {
+                parentComponents[comp.Type] = comp;
+            }
+            
+            proto.Components = parentComponents.Values.ToList();
+        }
+    }
 }
+

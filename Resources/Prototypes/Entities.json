@@ -1,0 +1,154 @@
+[
+    {
+        "ID": "BaseEntity",
+        "Name": "Base Entity",
+        "Description": "Abstract base entity",
+        "Sprite": "noop",
+        "Components": [
+            {
+                "Type": "Physics",
+                "Data": {
+                    "Dense": false,
+                    "Anchored": true
+                }
+            }
+        ]
+    },
+    {
+        "ID": "Floor",
+        "Parent": "BaseEntity",
+        "Name": "Steel Floor",
+        "Description": "A standard steel floor tile.",
+        "Sprite": "floor",
+        "Components": [
+            {
+                "Type": "Physics",
+                "Data": {
+                    "Dense": false,
+                    "Anchored": true,
+                    "Mass": 100
+                }
+            },
+            {
+                "Type": "Atmosphere",
+                "Data": {}
+            }
+        ]
+    },
+    {
+        "ID": "Wall",
+        "Name": "Station Wall",
+        "Description": "A solid reinforced wall.",
+        "Sprite": "iron0",
+        "Components": [
+            {
+                "Type": "Physics",
+                "Data": {
+                    "Dense": true,
+                    "Anchored": true,
+                    "Mass": 500
+                }
+            }
+        ]
+    },
+    {
+        "ID": "Human",
+        "Name": "Urist McAssistant",
+        "Description": "A crew member aboard the station.",
+        "Sprite": "human",
+        "Components": [
+            {
+                "Type": "Physics",
+                "Data": {
+                    "MoveSpeed": 2.0,
+                    "Dense": true,
+                    "Anchored": false,
+                    "Mass": 70
+                }
+            },
+            {
+                "Type": "Health",
+                "Data": {
+                    "MaxHealth": 100,
+                    "CurrentHealth": 100
+                }
+            },
+            {
+                "Type": "Damageable",
+                "Data": {}
+            }
+        ]
+    },
+    {
+        "ID": "Toolbox",
+        "Name": "Toolbox",
+        "Description": "A robust toolbox. Contains tools.",
+        "Sprite": "toolbox_blue",
+        "Components": [
+            {
+                "Type": "Physics",
+                "Data": {
+                    "Dense": false,
+                    "Anchored": false,
+                    "Mass": 5
+                }
+            }
+        ]
+    },
+    {
+        "ID": "Wrench",
+        "Name": "Wrench",
+        "Description": "A wrench for construction.",
+        "Sprite": "wrench",
+        "Components": [
+            {
+                "Type": "Physics",
+                "Data": {
+                    "Dense": false,
+                    "Anchored": false,
+                    "Mass": 1
+                }
+            }
+        ]
+    },
+    {
+        "ID": "Generator",
+        "Name": "SMES Unit",
+        "Description": "A power storage and distribution unit.",
+        "Sprite": "smes",
+        "Components": [
+            {
+                "Type": "Physics",
+                "Data": {
+                    "Dense": true,
+                    "Anchored": true,
+                    "Mass": 200
+                }
+            },
+            {
+                "Type": "PowerProducer",
+                "Data": {
+                    "MaxOutput": 10000,
+                    "Available": 10000,
+                    "Active": true
+                }
+            }
+        ]
+    },
+    {
+        "ID": "APC",
+        "Name": "Area Power Controller",
+        "Description": "Controls power distribution for an area.",
+        "Sprite": "apc0",
+        "Components": [
+            {
+                "Type": "Physics",
+                "Data": {
+                    "Dense": false,
+                    "Anchored": true,
+                    "Mass": 20
+                }
+            }
+        ]
+    }
+]

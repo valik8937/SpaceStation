@@ -7,6 +7,7 @@ using SpaceStation.Content.Components;
 using SpaceStation.Server.Network;
 using SpaceStation.Shared.Network;
 using SpaceStation.Shared.Network.Packets;
+using SpaceStation.Shared.Prototypes;
 
 namespace SpaceStation.Server;
 
@@ -19,11 +20,15 @@ public sealed class GameServer : IDisposable
     private readonly SystemManager _systems;
     private readonly ServerNetworkManager _network;
 
+    // Data-driven content
+    private readonly PrototypeManager _prototypes;
+    private readonly EntityFactory _entityFactory;
+
     private bool _running;
     private uint _currentTick;
 
-    // Entity ID tracking for network sync
-    private readonly Dictionary<Entity, int> _entityToNetId = new();
+    // Entity ID and sprite tracking for network sync
+    private readonly Dictionary<Entity, (int NetId, string SpriteId)> _entityRegistry = new();
     private readonly Dictionary<int, Entity> _netIdToEntity = new();
     private int _nextNetworkId = 1;
 
@@ -36,6 +41,13 @@ public sealed class GameServer : IDisposable
         _world = World.Create();
         _systems = new SystemManager(_world);
         _network = new ServerNetworkManager();
+
+        // Initialize prototype system
+        _prototypes = new PrototypeManager();
+        _entityFactory = new EntityFactory(_prototypes);
+
+        // Hook entity spawning to network registration
+        _entityFactory.OnEntitySpawned += RegisterNetworkEntity;
 
         // Register core systems
         _systems.RegisterSystem<MovementSystem>();
@@ -55,9 +67,12 @@ public sealed class GameServer : IDisposable
     {
         Console.WriteLine("╔════════════════════════════════════════╗");
         Console.WriteLine("║     Space Station 13 - C# Remake       ║");
-        Console.WriteLine("║          SERVER v0.3.0-NET              ║");
+        Console.WriteLine("║          SERVER v0.4.0-DATA             ║");
         Console.WriteLine("╚════════════════════════════════════════╝");
         Console.WriteLine();
+
+        // Load prototypes
+        LoadPrototypes();
 
         _systems.Initialize();
 
@@ -82,19 +97,39 @@ public sealed class GameServer : IDisposable
         RunGameLoop();
     }
 
+    private void LoadPrototypes()
+    {
+        // Try multiple paths to find prototypes
+        var paths = new[]
+        {
+            Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..", "..", "Resources", "Prototypes"),
+            "Resources/Prototypes",
+            "../Resources/Prototypes"
+        };
+
+        foreach (var path in paths)
+        {
+            if (Directory.Exists(path))
+            {
+                _prototypes.LoadDirectory(path);
+                return;
+            }
+        }
+
+        Console.WriteLine("[Server] WARNING: Prototypes directory not found!");
+    }
+
     private void CreateGameEntities()
     {
-        // Create floor tiles
+        var pos = System.Numerics.Vector2.Zero;
+
+        // Create floor tiles using prototype
         for (int x = 0; x < 15; x++)
         {
             for (int y = 0; y < 15; y++)
             {
-                var entity = _world.Create(
-                    new Transform(new System.Numerics.Vector2(x, y), 0f, 0),
-                    new Physics(default, 1f, 1f, 0.5f, false, true),
-                    Atmosphere.CreateStandard()
-                );
-                RegisterNetworkEntity(entity, "floor");
+                pos = new System.Numerics.Vector2(x, y);
+                _entityFactory.Spawn(_world, "Floor", pos);
             }
         }
 
@@ -102,50 +137,31 @@ public sealed class GameServer : IDisposable
         for (int i = 0; i < 15; i++)
         {
             // Top and bottom walls
-            var topWall = _world.Create(
-                new Transform(new System.Numerics.Vector2(i, -1), 0f, 0),
-                new Physics(default, 0f, 100f, 0f, true, true)
-            );
-            RegisterNetworkEntity(topWall, "wall");
-
-            var bottomWall = _world.Create(
-                new Transform(new System.Numerics.Vector2(i, 15), 0f, 0),
-                new Physics(default, 0f, 100f, 0f, true, true)
-            );
-            RegisterNetworkEntity(bottomWall, "wall");
+            _entityFactory.Spawn(_world, "Wall", new System.Numerics.Vector2(i, -1));
+            _entityFactory.Spawn(_world, "Wall", new System.Numerics.Vector2(i, 15));
         }
 
-        // Create some moving entities
+        // Create some crew members
         for (int i = 0; i < 5; i++)
         {
-            var velocity = new System.Numerics.Vector2(
-                (float)(Random.Shared.NextDouble() - 0.5) * 2,
-                (float)(Random.Shared.NextDouble() - 0.5) * 2
-            );
-
-            var mob = _world.Create(
-                new Transform(new System.Numerics.Vector2(5 + i * 2, 7), 0f, 0),
-                new Physics(velocity, 2f, 70f, 0.2f, true, false),
-                new Health(100f, 100f, Shared.Enums.MobState.Alive),
-                new Damageable()
-            );
-            RegisterNetworkEntity(mob, "human");
+            pos = new System.Numerics.Vector2(5 + i * 2, 7);
+            _entityFactory.Spawn(_world, "Human", pos);
         }
 
         // Create power infrastructure
-        var generator = _world.Create(
-            new Transform(new System.Numerics.Vector2(2, 2), 0f, 0),
-            new PowerProducer(10000f, 10000f, true)
-        );
-        RegisterNetworkEntity(generator, "generator");
+        _entityFactory.Spawn(_world, "Generator", new System.Numerics.Vector2(2, 2));
 
-        Console.WriteLine($"[Server] Created {_entityToNetId.Count} network entities");
+        // Create some items
+        _entityFactory.Spawn(_world, "Toolbox", new System.Numerics.Vector2(8, 3));
+        _entityFactory.Spawn(_world, "Wrench", new System.Numerics.Vector2(9, 3));
+
+        Console.WriteLine($"[Server] Created {_entityRegistry.Count} network entities from prototypes");
     }
 
-    private void RegisterNetworkEntity(Entity entity, string prototypeId)
+    private void RegisterNetworkEntity(Entity entity, string spriteId)
     {
         var netId = _nextNetworkId++;
-        _entityToNetId[entity] = netId;
+        _entityRegistry[entity] = (netId, spriteId);
         _netIdToEntity[netId] = entity;
     }
 
@@ -222,18 +238,28 @@ public sealed class GameServer : IDisposable
 
         _world.Query(in SyncableQuery, (Entity entity, ref Transform transform) =>
         {
-            if (!_entityToNetId.TryGetValue(entity, out var netId))
+            if (!_entityRegistry.TryGetValue(entity, out var registration))
                 return;
 
             var netEntity = new NetworkEntity
             {
-                EntityId = netId,
+                EntityId = registration.NetId,
                 Transform = new NetworkTransform(
                     transform.Position.X,
                     transform.Position.Y,
                     transform.Rotation,
                     transform.ZLevel
-                )
+                ),
+                // Include sprite reference
+                Sprite = new NetworkSprite
+                {
+                    TextureId = registration.SpriteId,
+                    TintR = 255,
+                    TintG = 255,
+                    TintB = 255,
+                    TintA = 255,
+                    Scale = 1f
+                }
             };
 
             // Add optional components
@@ -281,7 +307,8 @@ public sealed class GameServer : IDisposable
     {
         var snapshot = BuildWorldSnapshot();
         var data = PacketSerializer.Serialize(snapshot);
-        _network.Broadcast(data, DeliveryMethod.Sequenced);
+        // Use ReliableUnordered - supports fragmentation for large packets
+        _network.Broadcast(data, DeliveryMethod.ReliableUnordered);
     }
 
     public void Dispose()

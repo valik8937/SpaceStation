@@ -7,6 +7,7 @@ using SpaceStation.Content.Systems;
 using SpaceStation.Content.Components;
 using SpaceStation.Client.Graphics;
 using SpaceStation.Client.Network;
+using SpaceStation.Client.Resources;
 using SpaceStation.Shared.Network;
 
 namespace SpaceStation.Client;
@@ -33,6 +34,9 @@ public class SpaceStationGame : Game
     private bool _connected;
     private uint _lastReceivedTick;
     private int _playerCount;
+
+    // Resources
+    private ResourceManager _resourceManager = null!;
 
     // Debug
     private Texture2D? _pixel;
@@ -118,10 +122,34 @@ public class SpaceStationGame : Game
         _pixel = new Texture2D(GraphicsDevice, 1, 1);
         _pixel.SetData(new[] { Color.White });
 
-        // Set default texture for entity sync
-        _entitySync.DefaultTexture = _pixel;
+        // Initialize resource manager and load textures
+        _resourceManager = new ResourceManager(GraphicsDevice);
+        
+        // Try to load textures from Resources/Textures
+        var texturePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..", "..", "Resources", "Textures");
+        if (Directory.Exists(texturePath))
+        {
+            _resourceManager.LoadDirectory(texturePath);
+        }
+        else
+        {
+            // Try relative to working directory
+            texturePath = "Resources/Textures";
+            if (Directory.Exists(texturePath))
+            {
+                _resourceManager.LoadDirectory(texturePath);
+            }
+            else
+            {
+                Console.WriteLine($"[Client] WARNING: Texture directory not found!");
+            }
+        }
 
-        Console.WriteLine("[Client] Content loaded");
+        // Set resources for entity sync
+        _entitySync.DefaultTexture = _pixel;
+        _entitySync.ResourceManager = _resourceManager;
+
+        Console.WriteLine($"[Client] Content loaded - {_resourceManager.TotalStates} sprite states available");
     }
 
     protected override void Update(GameTime gameTime)
@@ -258,6 +286,7 @@ public class SpaceStationGame : Game
         _network?.Dispose();
         _world?.Dispose();
         _systems?.Dispose();
+        _resourceManager?.Dispose();
         _pixel?.Dispose();
 
         Console.WriteLine("[Client] Shutdown complete.");
